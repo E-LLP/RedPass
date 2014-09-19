@@ -1,0 +1,11 @@
+[package]
+
+name = "passwords"
+version = "0.0.1"
+authors = ["Reisen <reisen@morphism.org>"]
+
+[dependencies.openssl]
+git = "https://github.com/sfackler/rust-openssl/"
+
+[dependencies.ncurses]
+git = "https://github.com/jeaye/ncurses-rs/"
